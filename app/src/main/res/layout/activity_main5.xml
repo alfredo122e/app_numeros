@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#89D882"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="384dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="432dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="81dp"
+        android:fontFamily="serif"
+        android:text="¡Toca sobre la imagen para escuchar la pronunciación!"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="33dp"
+        android:background="#00ACC1"
+        android:text="Siguiente"
+        app:icon="@drawable/ic_baseline_arrow_forward_24"
+        app:layout_constraintBottom_toBottomOf="@+id/button9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button9"
+        app:layout_constraintTop_toTopOf="@+id/button9"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="165dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="72dp"
+        android:background="#00ACC1"
+        android:text="Atrás"
+        app:icon="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="255dp"
+        android:layout_height="293dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginBottom="32dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666"
+        app:srcCompat="@drawable/cinco" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="167dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="casual"
+        android:text="Número 5."
+        android:textColor="#44610E"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

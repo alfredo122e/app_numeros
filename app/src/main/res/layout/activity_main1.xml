@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#95AEDF"
+    tools:context=".MainActivity1">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="27dp"
+        android:background="#00ACC1"
+        android:text="Siguiente"
+        app:icon="@drawable/ic_baseline_arrow_forward_24"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button5"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="72dp"
+        android:background="#00ACC1"
+        android:text="Atrás"
+        app:icon="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="171dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginBottom="11dp"
+        android:fontFamily="casual"
+        android:text="Número 1."
+        android:textColor="#44610E"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="255dp"
+        android:layout_height="293dp"
+        android:layout_marginBottom="21dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        app:srcCompat="@drawable/uno" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="389dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="92dp"
+        android:fontFamily="serif"
+        android:text="¡Toca sobre la imagen para escuchar la pronunciación!"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3F0F8"
+    tools:context=".MainActivity11">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="446dp"
+        android:fontFamily="serif"
+        android:text="- David Isaac Hernández Chicas.              SMIS006121."
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="176dp"
+        android:background="#00ACC1"
+        android:text="Atrás"
+        app:icon="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        app:layout_constraintVertical_bias="0.811"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="38dp"
+        android:background="#00ACC1"
+        android:text="Página principal"
+        app:icon="@drawable/ic_baseline_home_24"
+        app:layout_constraintBottom_toBottomOf="@+id/button21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button21"
+        app:layout_constraintTop_toTopOf="@+id/button21"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="194dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="casual"
+        android:text="Integrantes:"
+        android:textColor="#44610E"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="34dp"
+        android:fontFamily="serif"
+        android:text="- Alfredo José Zelaya Lainez.            SMIS069221."
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Iveth Ulloa/Downloads/app_numeros/app/src/main/res/layout/activity_main11.xml" value="0.17844202898550723" />
+        <entry key="..\:/Users/Iveth Ulloa/Downloads/app_vocales/app/src/main/res/layout/activity_main.xml" value="0.17844202898550723" />
+        <entry key="..\:/Users/Iveth Ulloa/Downloads/app_vocales/app/src/main/res/layout/activity_main1.xml" value="0.22" />
+        <entry key="..\:/Users/Iveth Ulloa/Downloads/app_vocales/app/src/main/res/layout/activity_main10.xml" value="0.17844202898550723" />
+        <entry key="..\:/Users/Iveth Ulloa/Downloads/app_vocales/app/src/main/res/layout/activity_main11.xml" value="0.22" />
+        <entry key="..\:/Users/Iveth Ulloa/Downloads/app_vocales/app/src/main/res/layout/activity_main2.xml" value="0.17844202898550723" />
+        <entry key="..\:/Users/Iveth Ulloa/Downloads/app_vocales/app/src/main/res/layout/activity_main3.xml" value="0.17844202898550723" />
+        <entry key="..\:/Users/Iveth Ulloa/Downloads/app_vocales/app/src/main/res/layout/activity_main4.xml" value="0.2" />
+        <entry key="..\:/Users/Iveth Ulloa/Downloads/app_vocales/app/src/main/res/layout/activity_main5.xml" value="0.17844202898550723" />
+        <entry key="..\:/Users/Iveth Ulloa/Downloads/app_vocales/app/src/main/res/layout/activity_main6.xml" value="0.18" />
+        <entry key="..\:/Users/Iveth Ulloa/Downloads/app_vocales/app/src/main/res/layout/activity_main7.xml" value="0.17844202898550723" />
+        <entry key="..\:/Users/Iveth Ulloa/Downloads/app_vocales/app/src/main/res/layout/activity_main8.xml" value="0.17844202898550723" />
+        <entry key="..\:/Users/Iveth Ulloa/Downloads/app_vocales/app/src/main/res/layout/activity_main9.xml" value="0.17844202898550723" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
